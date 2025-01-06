@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+  margin: 0;
+}
+header{
+    background-color: #325981;
+    padding: 5px;
+}
+
+
+/*no ul estou dando comandos */
+ul {
+    padding: 20px;
+    display: flex;/*estou deixando minha ul flexivel para que possa trabalhar nela */
+    gap: 100px;/*estou dando um espaço entre minha ul */
+    justify-content: center;/*estou justificando minha li ao centro*/
+    list-style: none;/*esse metedo esta tirando uma marcação que vem na li*/
+}
+ul li a{
+text-decoration: none;/*esse metodo esta tirando uma limha que vem na li */
+font-size: 20px;/*esse metodo esta dando um tamanho para minha li*/
+font-family: Verdana, Geneva, Tahoma, sans-serif;/*esse metodo esta dando uma escrita diferente a minha li*/
+color: gray;/*esse metodo esta dando uma cor a minha li*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
