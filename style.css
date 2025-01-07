@@ -1,56 +1,85 @@
-*{
+/*
+cor preta #1f1f20
+
+cor azul #2b4c7e
+
+cor azul clara #567ebb
+
+cor cinza #606d80
+
+cor cinza claro #dce0e6
+*/
+* {
     padding: 0;
-  margin: 0;
+    margin: 0;
 }
-header{
+
+header {
     background-color: #325981;
-    padding: 5px;
+   
 }
 
 
 /*no ul estou dando comandos */
 ul {
     padding: 20px;
-    display: flex;/*estou deixando minha ul flexivel para que possa trabalhar nela */
-    gap: 100px;/*estou dando um espaço entre minha ul */
-    justify-content: center;/*estou justificando minha li ao centro*/
-    list-style: none;/*esse metedo esta tirando uma marcação que vem na li*/
-}
-ul li a{
-text-decoration: none;/*esse metodo esta tirando uma limha que vem na li */
-font-size: 20px;/*esse metodo esta dando um tamanho para minha li*/
-font-family: Verdana, Geneva, Tahoma, sans-serif;/*esse metodo esta dando uma escrita diferente a minha li*/
-color: gray;/*esse metodo esta dando uma cor a minha li*/
+    display: flex;
+    /*estou deixando minha ul flexivel para que possa trabalhar nela */
+    gap: 100px;
+    /*estou dando um espaço entre minha ul */
+    justify-content: center;
+    /*estou justificando minha li ao centro*/
+    list-style: none;
+    /*esse metedo esta tirando uma marcação que vem na li*/
 }
 
+ul li a {
+    text-decoration: none;
+    /*esse metodo esta tirando uma limha que vem na li */
+    font-size: 20px;
+    /*esse metodo esta dando um tamanho para minha li*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*esse metodo esta dando uma escrita diferente a minha li*/
+    color: gray;
+    /*esse metodo esta dando uma cor a minha li*/
+}
 
+a:hover {
+    color: aqua;
+}
 
+h1 {
+    text-align: center;
+    margin-left: 55px;
+}
 
+section {
+    background-color: #9bbee0;
+  
+}
 
+.conteiner {
+    display: flex;
+    text-align: center;
+}
 
+.texto {
+    width: 550px;
+    height: 355px;
+    margin: 50px;
+    margin-right: 70px;
+}
+img{
+    margin: 40px;
+    border-radius: 900px;
+    margin-left: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section-1{
+    padding: 300px;
+    background-color: aqua;
+}
+.section-2{
+    padding: 300px;
+    background-color: rgb(255, 0, 170);
+}
