@@ -54,7 +54,8 @@ h1 {
 }
 
 section {
-    background-color: #9bbee0;
+    background-color: #1f1f20;
+    padding: 7px;
   
 }
 
@@ -63,23 +64,35 @@ section {
     text-align: center;
 }
 
+
+img{
+    width: 17%;
+    margin: 40px;
+    border-radius:800px;
+    margin-left: 100px;
+}
+
+
+
 .texto {
     width: 550px;
     height: 355px;
     margin: 50px;
     margin-right: 70px;
+    color: #dce0e6;
+    font-size: 29px;
+   
 }
-img{
-    margin: 40px;
-    border-radius: 900px;
-    margin-left: 200px;
+.T1{
+   color: rgb(255, 123, 0); 
 }
-
-.section-1{
-    padding: 300px;
-    background-color: aqua;
+.T2{
+   color: blue; 
 }
-.section-2{
-    padding: 300px;
-    background-color: rgb(255, 0, 170);
+.T3{
+   color: yellow; 
+}
+span{
+    color: rgb(64, 129, 202);
+    font-size: 30px;
 }
