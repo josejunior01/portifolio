@@ -16,7 +16,7 @@ cor cinza claro #dce0e6
 
 header {
     background-color: #325981;
-   
+
 }
 
 
@@ -53,9 +53,11 @@ a:hover {
 
 
 .section-1 {
-    background-color: #1f1f20;/*aqui dando uma cor na minha section-1*/
-    padding: 7px;/*aqui dando um tamnho para minha section-1*/
-  
+    background-color: #1f1f20;
+    /*aqui dando uma cor na minha section-1*/
+    padding: 7px;
+    /*aqui dando um tamnho para minha section-1*/
+
 }
 
 .conteiner {
@@ -67,39 +69,101 @@ a:hover {
 
 
 .texto {
-    text-align: center;/*text-align esta centralizando minha <p> dentro da minha div*/
-    width: 600px;/* width esta dando uma largura a minha caixa div*/
-    height: 355px;/*heigth esta dando uma altura na minha caixa div*/
-    margin: 50px;/* margin esta dando um espaçamento dentro da meu conteiner*/
-    margin-right: 70px;/*margin-heigth esta jogando minha caixa div para o lado direito*/
-    color: #dce0e6;/*color esta dando cor a meu <p> que eo texto */
-    font-size: 29px;/*font-size esta dando um tamnho pra meu <p>*/
-    box-shadow: 2px 2px 2.5px 0.9px #dce0e6;/*box-shadow esta dando uma sobra a minha div texto*/
-}
-.T1{
-   color: rgb(255, 123, 0); /* aqui estou dando cor aos meus span dentro do texto*/
-}
-.T2{
-   color: blue; /* aqui estou dando cor aos meus span dentro do texto*/
-}
-.T3{
-   color: yellow; /* aqui estou dando cor aos meus span dentro do texto*/
-}
-span{
-    color: rgb(64, 129, 202);/* aqui estou dando cor aos meus span dentro do texto*/
-    font-size: 30px;
-}
-.img-1{
-    width: 500px;/*width esta dando uma largura a minha div img */
-    height: 360px;/*heigth esta dando uma altura a minha dic img*/
-    margin: 50px;/*margin esta dando um espaçamendo entro o topo do meu conteiner*/
-    text-align: center;/* text-align esta centralizando minha img dentro da minha div img*/
+    text-align: center;
+    /*text-align esta centralizando minha <p> dentro da minha div*/
+    width: 600px;
+    /* width esta dando uma largura a minha caixa div*/
+    height: 355px;
+    /*heigth esta dando uma altura na minha caixa div*/
+    margin: 50px;
+    /* margin esta dando um espaçamento dentro da meu conteiner*/
+    margin-right: 70px;
+    /*margin-heigth esta jogando minha caixa div para o lado direito*/
+    color: #dce0e6;
+    /*color esta dando cor a meu <p> que eo texto */
+    font-size: 29px;
+    /*font-size esta dando um tamnho pra meu <p>*/
+    box-shadow: 2px 2px 2.5px 0.9px #dce0e6;
+    /*box-shadow esta dando uma sobra a minha div texto*/
 }
 
-img{
-    width: 40%;/*width esta dando uma largura para minha imagem dentro da minha sectiom-1*/
-    margin: 40px; /*margin esta dando uma margin entre meu topo da section-1 para baixo*/
-    border-radius:60px;/*borde-radius esta fazendo com que eu deixe a borda da img em formas */
-    margin-left: 100px;/* margin-left esta dando uma espaçada para o lado esquerdo da minha section-1*/
-    box-shadow: 1px 5px 15px black;/*box-shadow esta dando uma sombra para na minha img*/
+.T1 {
+    color: rgb(255, 123, 0);
+    /* aqui estou dando cor aos meus span dentro do texto*/
+}
+
+.T2 {
+    color: blue;
+    /* aqui estou dando cor aos meus span dentro do texto*/
+}
+
+.T3 {
+    color: yellow;
+    /* aqui estou dando cor aos meus span dentro do texto*/
+}
+
+span {
+    color: rgb(64, 129, 202);
+    /* aqui estou dando cor aos meus span dentro do texto*/
+    font-size: 30px;
+}
+
+.img-1 {
+    width: 500px;
+    /*width esta dando uma largura a minha div img */
+    height: 360px;
+    /*heigth esta dando uma altura a minha dic img*/
+    margin: 50px;
+    /*margin esta dando um espaçamendo entro o topo do meu conteiner*/
+    text-align: center;
+    /* text-align esta centralizando minha img dentro da minha div img*/
+}
+
+img {
+    width: 40%;
+    /*width esta dando uma largura para minha imagem dentro da minha sectiom-1*/
+    margin: 40px;
+    /*margin esta dando uma margin entre meu topo da section-1 para baixo*/
+    border-radius: 60px;
+    /*borde-radius esta fazendo com que eu deixe a borda da img em formas */
+    margin-left: 100px;
+    /* margin-left esta dando uma espaçada para o lado esquerdo da minha section-1*/
+    box-shadow: 1px 5px 15px black;
+    /*box-shadow esta dando uma sombra para na minha img*/
+}
+
+.section-2 {
+    /*estilizando minha section-2*/
+    background-color: #325981;
+    /*dando uma cor para minha section-2*/
+    padding: 10vh;
+    /*dando um tamnho com padding na minha section-2*/
+    text-align: center;
+    /*alinha mues conteúdo em texto dentro da minha section-2*/
+
+}
+
+.conteiner-2 {
+    display: flex;/*deixando minhas caixas flexiveis dentro do meu conteiner-2*/
+    justify-content: center;/*centralizando minhas caixas dentro do meu conteiner-2*/
+    gap: 40px;/*separando minha caixa colocando lado a lado com espaço*/
+}
+
+h2 {
+    color: white;/*dando uma cor para minha h2*/
+
+}
+
+.box {
+    width: 300px;/*dando uma largura para minha div box*/
+    height: 300px;/*dando uma altura para minha div box*/
+    border: solid black;/*dando uma borda para minhas div box*/
+    margin: 30px;
+}
+
+.box:hover {/*estilizando minhas div box com um hover pra quando passar o mouse acontece algo*/
+    border-style: double;/*dando uma borda dupla para minha div box*/
+    border-color: white;/*dando uma cor para minha borda das div*/
+    box-shadow: 9px 9px 19px black;/*colocando uma sombra nas div box*/
+
 }
