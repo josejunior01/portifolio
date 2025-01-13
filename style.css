@@ -45,54 +45,61 @@ ul li a {
 }
 
 a:hover {
+    /*aqui estou colocando uma cor no meu menu quando passo o moude ele muda der cor*/
     color: aqua;
+    /*esse transition e pra quando passaer o mouse encima dos nome no menu ele ter uma certa velocidade para mudar a cor*/
+    transition: 0.8s;
 }
 
-h1 {
-    text-align: center;
-    margin-left: 55px;
-}
 
-section {
-    background-color: #1f1f20;
-    padding: 7px;
+.section-1 {
+    background-color: #1f1f20;/*aqui dando uma cor na minha section-1*/
+    padding: 7px;/*aqui dando um tamnho para minha section-1*/
   
 }
 
 .conteiner {
+    /*esse comando display esta deixando minha caixa dentro so meu conteiner flexivel*/
     display: flex;
-    text-align: center;
 }
 
-
-img{
-    width: 17%;
-    margin: 40px;
-    border-radius:800px;
-    margin-left: 100px;
-}
 
 
 
 .texto {
-    width: 550px;
-    height: 355px;
-    margin: 50px;
-    margin-right: 70px;
-    color: #dce0e6;
-    font-size: 29px;
-   
+    text-align: center;/*text-align esta centralizando minha <p> dentro da minha div*/
+    width: 600px;/* width esta dando uma largura a minha caixa div*/
+    height: 355px;/*heigth esta dando uma altura na minha caixa div*/
+    margin: 50px;/* margin esta dando um espaçamento dentro da meu conteiner*/
+    margin-right: 70px;/*margin-heigth esta jogando minha caixa div para o lado direito*/
+    color: #dce0e6;/*color esta dando cor a meu <p> que eo texto */
+    font-size: 29px;/*font-size esta dando um tamnho pra meu <p>*/
+    box-shadow: 2px 2px 2.5px 0.9px #dce0e6;/*box-shadow esta dando uma sobra a minha div texto*/
 }
 .T1{
-   color: rgb(255, 123, 0); 
+   color: rgb(255, 123, 0); /* aqui estou dando cor aos meus span dentro do texto*/
 }
 .T2{
-   color: blue; 
+   color: blue; /* aqui estou dando cor aos meus span dentro do texto*/
 }
 .T3{
-   color: yellow; 
+   color: yellow; /* aqui estou dando cor aos meus span dentro do texto*/
 }
 span{
-    color: rgb(64, 129, 202);
+    color: rgb(64, 129, 202);/* aqui estou dando cor aos meus span dentro do texto*/
     font-size: 30px;
+}
+.img-1{
+    width: 500px;/*width esta dando uma largura a minha div img */
+    height: 360px;/*heigth esta dando uma altura a minha dic img*/
+    margin: 50px;/*margin esta dando um espaçamendo entro o topo do meu conteiner*/
+    text-align: center;/* text-align esta centralizando minha img dentro da minha div img*/
+}
+
+img{
+    width: 40%;/*width esta dando uma largura para minha imagem dentro da minha sectiom-1*/
+    margin: 40px; /*margin esta dando uma margin entre meu topo da section-1 para baixo*/
+    border-radius:60px;/*borde-radius esta fazendo com que eu deixe a borda da img em formas */
+    margin-left: 100px;/* margin-left esta dando uma espaçada para o lado esquerdo da minha section-1*/
+    box-shadow: 1px 5px 15px black;/*box-shadow esta dando uma sombra para na minha img*/
 }
