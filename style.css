@@ -163,7 +163,25 @@ h2 {
 
 .box:hover {/*estilizando minhas div box com um hover pra quando passar o mouse acontece algo*/
     border-style: double;/*dando uma borda dupla para minha div box*/
-    border-color: white;/*dando uma cor para minha borda das div*/
+    border-color: #606d80;/*dando uma cor para minha borda das div*/
     box-shadow: 9px 9px 19px black;/*colocando uma sombra nas div box*/
 
+}
+
+.rodape{
+    padding: 50px;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    
+}
+.rodape a {
+    text-decoration: none;
+}
+.rodape i{
+    font-size: 55px;
+    color: #606d80;
+    margin: 50px;
+    
 }
