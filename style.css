@@ -143,7 +143,7 @@ span {
 
 }
 
-.conteiner-2 {
+#conteiner-2 {
     display: flex;/*deixando minhas caixas flexiveis dentro do meu conteiner-2*/
     justify-content: center;/*centralizando minhas caixas dentro do meu conteiner-2*/
     gap: 40px;/*separando minha caixa colocando lado a lado com espaço*/
@@ -181,7 +181,7 @@ h2 {
 
 }
 
-.rodape{
+#rodape{
     padding: 50px;
     background-color: #1f1f20;
     display: flex;
@@ -189,10 +189,10 @@ h2 {
     gap: 45px;
     
 }
-.rodape a {
+#rodape a {
     text-decoration: none;
 }
-.rodape i{
+#rodape i{
     font-size: 55px;
     color: #606d80;
     margin: 50px;
