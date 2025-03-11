@@ -1,0 +1,132 @@
+
+body{
+    /* body ele esta estilizando a pagina web  */
+background-image: url(https://super.abril.com.br/wp-content/uploads/2005/11/escola-2.png?w=1024&resize=1200,800);
+ /* backgraund-image:url cola uma imagen de fundo na pagina web pelo enderço do link */
+ background-repeat: no-repeat;
+ /* backgraund:no-repaet na deixa repetir a image do  background-image: */
+ background-size: auto 111%;
+   /* background-size ele da o tamanho da image que o background-image traz para a paginha web */
+ background-size: cover;
+
+}
+
+h1{
+    /* h1 aqui estou estilizando o titulo */
+    text-align: center;
+    /* text-align centraliza o texto aqui centralizou o h1 */
+    color: rgb(0, 2, 1) ;
+    /* colo deu coi a meu titulo login */
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    /* font-family ele moficou a minhas letar de titulo para uma mas bonita */
+    
+}
+
+hr{
+    /* hr ele da uma linha de traço  embaixo do meu login */
+    width: 400px;
+    /* width ele da a largura para meu traço */
+    height: 3px;
+    /* heigth ele deu uma altura para meu traço */
+    background-color: rgb(105, 175, 122);
+    /* background-color deu uma cor para meu traço*/
+}
+
+.label label{
+    /* label ele esta estilizando meus nomes visual que aprecem na pagina web */
+  color: black;
+    /* color ele esta dando cor as letars da pagina web */
+}
+.label input{
+    /* label input esta estilizando a caixa input  */
+    background-color: rgba(248, 250, 247, 0.445);
+     /* background-color deu uma cor para caixa input*/
+     width: 200px;
+     /* largua */
+     height: 15px;
+     /* largua */
+     border-radius: 30px;
+     /* borda para minha caixa input */
+     /* box-shadow: 5px 6px 15px rgb(0, 0, 0);
+    box-shadow  ele faz a sonbra da caixa */
+/* display: block;
+margin: 0% auto; centraliza */
+
+    }
+   .btnlogar input {
+    /* cadastro input ele estiliza o button logar */
+     background-color: rgba(0, 255, 64, 0.151);
+/* background-color deu uma cor de fundo para meu button loga*/
+        text-align: center;
+/* text-align centraliza o texto aqui centralizou o logar */
+        font-family: unset;
+ /* font-family ele moficou a minhas letas delogar para uma mas bonita */
+        width: 80px;
+/* width ele da a largura  */
+        height: 20px;
+/* heigth ele deu uma altura  */
+    }
+    .btn{
+        /* btn estiliza o button cadastro */
+        background-color: rgba(0, 255, 98, 0.116);
+     /* background-color deu uma cor de fundo para meu button cadastra-se*/
+        border-radius: 30px;
+     /* borda para minha caixa cadastro */
+        color: rgb(0, 0, 0);
+    }
+
+    .btnpagina button{
+        /* btnpagina estiliza o button pagona anterio */
+        background-color: rgba(245, 8, 8, 0.801);
+      /* background-color deu uma cor de fundo para meu button pagina*/
+        border-radius: 30px;
+         /* borda para minha caixa pagina */
+    }
+    
+.btnlogar input {
+    
+    
+    cursor: pointer;
+    
+}
+
+.btnlogar input:hover {
+    
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(0, 255, 21);
+}
+.btn{
+    
+
+     cursor: pointer; 
+    
+}
+
+.btn:hover {
+    
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(0, 255, 21);
+}
+
+ .div{
+    text-align: center;
+    /* text-aling ele alinha o texto ao centro da pagina web */
+    background-color: rgba(16, 192, 31, 0.096);
+    /* background-color da a cor de fundo onde eu quero mencionar a cor */
+    width: 430px;
+    /* widht ele da a largura a onde eu Quizer menciona ele (width -> largura) */
+    height: 340px;
+/* heigth ele da a altura aqui Que eu quero mencionar ele (heigth -> */
+    margin: 100px auto;
+/* centraliza a caixa da minha div no centro da pagina */
+    padding: 2px;
+ /* pedding:15% ele preenche */
+    padding-left: 10px;
+ 
+    border-radius: 35px;
+/* borde-radius ele faz com que a borda da caixa ganhe uma certa curva dependendo do tamnho do seu px */
+    box-shadow: 18px 15px 15px rgba(0, 0, 0, 0.322);
+    /* box-shadow  ele faz a sonbra da caixa */
+ }

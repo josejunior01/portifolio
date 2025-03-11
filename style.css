@@ -119,7 +119,7 @@ span {
     /* text-align esta centralizando minha img dentro da minha div img*/
 }
 
-img {
+.zap {
     width: 40%;
     /*width esta dando uma largura para minha imagem dentro da minha sectiom-1*/
     margin: 40px;
@@ -154,12 +154,25 @@ h2 {
 
 }
 
-.box {
-    width: 300px;/*dando uma largura para minha div box*/
-    height: 300px;/*dando uma altura para minha div box*/
-    border: solid black;/*dando uma borda para minhas div box*/
-    margin: 30px;
+
+
+.box img {
+    width: 100%;
+    height: 85%;
 }
+ .box a{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+ }
+.box {
+    width: 400px;/*dando uma largura para minha div box*/
+    height: 200px;/*dando uma altura para minha div box*/
+    margin: 30px;
+    font-size: 25px;
+    
+}
+
 
 .box:hover {/*estilizando minhas div box com um hover pra quando passar o mouse acontece algo*/
     border-style: double;/*dando uma borda dupla para minha div box*/
