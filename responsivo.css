@@ -1,0 +1,196 @@
+@media (max-width: 480px) {
+ /*
+cor preta #1f1f20
+
+cor azul #2b4c7e
+
+cor azul clara #567ebb
+
+cor cinza #606d80
+
+cor cinza claro #dce0e6
+*/
+
+header {
+    background-color: #325981;
+
+}
+
+
+/*no ul estou dando comandos */
+ul {
+    padding: 5%;
+    display: flex;
+    /*estou deixando minha ul flexivel para que possa trabalhar nela */
+    gap: 10%;
+    /*estou dando um espaço entre minha ul */
+    justify-content: center;
+    /*estou justificando minha li ao centro*/
+    list-style: none;
+    /*esse metedo esta tirando uma marcação que vem na li*/
+}
+
+ul li a {
+    text-decoration: none;
+    /*esse metodo esta tirando uma limha que vem na li */
+    font-size: 4vh;
+    /*esse metodo esta dando um tamanho para minha li*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*esse metodo esta dando uma escrita diferente a minha li*/
+    color: gray;
+    /*esse metodo esta dando uma cor a minha li*/
+}
+
+a:hover {
+    /*aqui estou colocando uma cor no meu menu quando passo o moude ele muda der cor*/
+    color: #1f1f20;
+    /*esse transition e pra quando passaer o mouse encima dos nome no menu ele ter uma certa velocidade para mudar a cor*/
+    transition: 0.8s;
+}
+
+
+.section-1 {
+    background-color: #1f1f20;
+    /*aqui dando uma cor na minha section-1*/
+    padding: 6vh;
+    /*aqui dando um tamnho para minha section-1*/
+
+}
+
+
+
+
+.texto {
+    text-align: center;
+    /*text-align esta centralizando minha <p> dentro da minha div*/
+    width: 50vh;
+    /* width esta dando uma largura a minha caixa div*/
+    height: 53vh;
+    /*heigth esta dando uma altura na minha caixa div*/
+    margin: 1vh;
+    /* margin esta dando um espaçamento dentro da meu conteiner*/
+    margin-right: 0% auto;
+    /*margin-heigth esta jogando minha caixa div para o lado direito*/
+    color: #dce0e6;
+    /*color esta dando cor a meu <p> que eo texto */
+    font-size: 1em;
+    /*font-size esta dando um tamnho pra meu <p>*/
+    box-shadow: 2px 2px 2.5px 0.9px #75a3e7;
+    /*box-shadow esta dando uma sobra a minha div texto*/
+}
+
+.T1 {
+    color: rgb(255, 123, 0);
+    /* aqui estou dando cor aos meus span dentro do texto*/
+    font-size: 80%;
+}
+
+.T2 {
+    color: blue;
+    /* aqui estou dando cor aos meus span dentro do texto*/
+    font-size: 80%;
+}
+
+.T3 {
+    color: yellow;
+    /* aqui estou dando cor aos meus span dentro do texto*/
+    font-size: 90%;
+}
+
+span {
+    color: rgb(64, 129, 202);
+    /* aqui estou dando cor aos meus span dentro do texto*/
+    font-size: 90%;
+}
+
+.img-1 {
+    width: 105vh;
+    /*width esta dando uma largura a minha div img */
+    margin-right: 10px;
+    /*margin esta dando um espaçamendo entro o topo do meu conteiner*/
+    text-align: center;
+    /* text-align esta centralizando minha img dentro da minha div img*/
+}
+
+.zap {
+    width: 100%;
+    /*width esta dando uma largura para minha imagem dentro da minha sectiom-1*/
+    margin: 0px;
+    /*margin esta dando uma margin entre meu topo da section-1 para baixo*/
+    border-radius: 60px;
+    /*borde-radius esta fazendo com que eu deixe a borda da img em formas */
+    margin-left: 0px;
+    /* margin-left esta dando uma espaçada para o lado esquerdo da minha section-1*/
+    box-shadow: 1px 5px 15px rgb(255, 255, 255);
+    /*box-shadow esta dando uma sombra para na minha img*/
+}
+
+.section-2 {
+    /*estilizando minha section-2*/
+    background-color: #325981;
+    /*dando uma cor para minha section-2*/
+    padding: 1vh;
+    /*dando um tamnho com padding na minha section-2*/
+    text-align: center;
+    /*alinha mues conteúdo em texto dentro da minha section-2*/
+    padding: 6vh;
+}
+
+#conteiner-2 {
+    display: flex;/*deixando minhas caixas flexiveis dentro do meu conteiner-2*/
+    justify-content: center;/*centralizando minhas caixas dentro do meu conteiner-2*/
+    gap: 1vh;/*separando minha caixa colocando lado a lado com espaço*/
+}
+
+h2 {
+    color: white;/*dando uma cor para minha h2*/
+
+}
+
+
+
+.box img {
+    width: 100%;
+    height: 455%;
+}
+ .box a{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+ }
+.box {
+   
+    width: 65%;/*dando uma largura para minha div box*/
+    height: 45%;/*dando uma altura para minha div box*/
+    margin: 10px;
+    font-size: 1.6vh;
+    
+}
+
+
+.box:hover {/*estilizando minhas div box com um hover pra quando passar o mouse acontece algo*/
+    border-style: double;/*dando uma borda dupla para minha div box*/
+    border-color: #606d80;/*dando uma cor para minha borda das div*/
+    box-shadow: 9px 9px 19px black;/*colocando uma sombra nas div box*/
+
+}
+
+#rodape{
+    padding: 2%;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#rodape a {
+    text-decoration: none;
+}
+#rodape i{
+    font-size: 55px;
+    color: #606d80;
+    margin: 0%;
+    
+}
+
+  }
